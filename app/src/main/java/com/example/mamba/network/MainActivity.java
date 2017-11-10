@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 .enqueue(new Callback<TestResponse>() {
                     @Override
                     public void onResponse(Call<TestResponse> call, Response<TestResponse> response) {
-                        Log.d("happy", new Gson().toJson(response));
+                        Log.d("happy", response.body().toString());
                     }
 
                     @Override
