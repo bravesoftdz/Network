@@ -1,4 +1,4 @@
-package com.example.network_retrofit.data.response;
+package com.example.network_retrofit;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
